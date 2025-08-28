@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Colorful Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(45deg, #ff6f61, #f39c12, #6a5acd);
+      color: white;
+      text-align: center;
+      padding: 30px 0;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 40px;
+    }
+
+    section {
+      width: 80%;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    section h2 { color: #ff6f61;
+      margin-bottom: 15px;
+    }
+
+    img {
+      max-width: 200px;
+      border-radius: 10px;
+      margin: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      display: inline-block;
+      margin: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #6a5acd;
+      color: white;
+   margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1> Its me "Swastika" </h1>
+    <p>Aspiring Web Developer</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <img src="https://via.placeholder.com/200" alt=>
+    <p>I am learning web development and love creating  webpages using HTML and CSS only.</p>
+  </section>
+
+  <section>
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>
+        <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f" alt="Reading">
+        <p>📖 Reading novels</p>
+      </li>
+      <li>
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" alt="Coding">
+        <p>💻 Coding</p>
+      </li>
+      <li>
+        <img src="https://unsplash.com/blog/content/images/2021/09/javier-miranda-MrWOCGKFVDg-unsplash-2.jpg"alt="Designing">
+        <p>🎨 Designing 3D Models</p>
+      </li>
+</ul>
+  </section>
+
+  <footer>
+    <p>&copy; My First Website</p>
+  </footer>
+
+</body>
+</html>
